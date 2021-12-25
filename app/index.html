@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="header_top">
+            <div class="header_logo">
+                <a class="logo" href="#">
+                    <picture class="logo_img">
+                        <source srcset="images/logo-mobile.png" media="(max-width: 375px)">
+                        <img src="images/logo-2.png" alt="logo img">
+                    </picture>
+                </a>
+            </div>
+            <button class="header_btn">
+                <span class="header_btn-line"></span>
+            </button>
+        </div>
+        <div class="header_content">
+            <h1 class="header_content-title title">
+                Roadster
+            </h1>
+            <p class="header_content-text">
+                Самый быстрый автомобиль в мире, с рекордным ускорением, дальностью и производительностью.
+            </p>
+            <a class="button" href="#">Хочу тест драйв</a>
+        </div>
+    </div>
+</header>
+<nav class="menu">
+    <div class="container container-btn">
+        <div class="menu_close-btn"></div>
+        <div class="menu_list">
+            <ul class="menu_list-item">
+                <li class="menu_list-link"><a href="#">Узнать цену</a></li>
+                <li class="menu_list-link"><a href="#">Характеристики</a></li>
+                <li class="menu_list-link"><a href="#">Тест Драйв</a></li>
+                <li class="menu_list-link"><a href="#">Новости</a></li>
+                <li class="menu_list-link"><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="wrapper">
+    <main class="main">
+
+        <section class="top">
+            <div class="top_slider">
+                <div class="top_slider-item">
+                    <img class="top_slider-img" src="images/slide-1.jpg" alt="images">
+                </div>
+                <div class="top_slider-item">
+                    <img class="top_slider-img" src="images/slide-2.jpg" alt="images">
+                </div>
+                <div class="top_slider-item">
+                    <img class="top_slider-img" src="images/slide-3.jpg" alt="images">
+                </div>
+            </div>
+        </section>
+
+        <section class="statistics">
+            <div class="container">
+                <div class="statistics_inner">
+                    <div class="statistics_item">
+                        <div class="statistics_item-title">Двигатель</div>
+                        <div class="statistics_item-num title">
+                            2,1
+                            <span>сек</span>
+                        </div>
+                        <div class="statistics_item-desc">разгон до 100 км/ч</div>
+                    </div>
+                    <div class="statistics_item">
+                        <div class="statistics_item-title">Батарея</div>
+                        <div class="statistics_item-num title">
+                            1000
+                            <span>км</span>
+                        </div>
+                        <div class="statistics_item-desc">запас хода</div>
+                    </div>
+                    <div class="statistics_item">
+                        <div class="statistics_item-title">Скорость</div>
+                        <div class="statistics_item-num title statistics_item-num--speed">
+                            400
+                            <span>км/ч</span>
+                        </div>
+                        <div class="statistics_item-desc">макс скорость</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="video">
+            <div class="container">
+                <img data-fancybox href="https://www.youtube.com/watch?v=fIEyS5pmmEo&ab_channel=808" src="images/section-img.jpg" alt="images">
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="container">
+                <div class="advantages_inner">
+                    <div class="advantages_row">
+                        <div class="advantages_desc">
+                            <div class="advantages_title">
+                                Скорость
+                            </div>
+                            <div class="advantages_text">
+                                Самый
+                                быстроразгоняющийся
+                                серийный автомобиль
+                                из когда-либо созданных
+                            </div>
+                        </div>
+                        <div class="advantages_img">
+                            <img src="images/advantages-1.jpg" alt="images">
+                        </div>
+                    </div>
+                    <div class="advantages_row advantages_row--mobile">
+                        <div class="advantages_img">
+                            <img src="images/advantages-2.jpg" alt="images">
+                        </div>
+
+                        <div class="advantages_desc">
+                            <div class="advantages_text">
+                                <ul class="advantages_item">
+                                    <li class="advantages_items">Датчик дождя</li>
+                                    <li class="advantages_items">Датчик света</li>
+                                    <li class="advantages_items">Автопилот</li>
+                                    <li class="advantages_items">Навигационная система</li>
+                                    <li class="advantages_items">Обогрев зеркал</li>
+                                    <li class="advantages_items">Усилитель руля</li>
+                                    <li class="advantages_items">Панорамная крыша</li>
+                                    <li class="advantages_items">Ксеноновые фары</li>
+                                </ul>
+                            </div>
+                            <div class="advantages_title advantages_title-2">
+                                Преимущества
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="design">
+            <div class="container">
+                <div class="design_images">
+                    <img src="images/design.jpg" alt="images">
+                </div>
+                <div class="design_inner">
+                    <div class="design_item">
+                        <div class="design_item-num">01</div>
+                        <div class="design_item-text">
+                            Новый родстер был разработан бывшим дизайнером Mazda Францем фон Хольцхаузеном.
+                            Имеет съёмную стеклянную крышу и кузов с двумя передними сиденьями плюс два небольших
+                            сиденья сзади.
+                        </div>
+                    </div>
+                    <div class="design_item">
+                        <div class="design_item-num">02</div>
+                        <div class="design_item-text">
+                            Родстер имеет три электродвигателя, один спереди и два сзади,
+                            Они обеспечивают полный привод, а также систему адресного распределения крутящего момента
+                            для лучшего прохождения поворотов.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_btn">
+                <a class="button" href="#">Хочу тест драйв</a>
+            </div>
+            <div class="footer_copy">
+                <ul class="footer_item">
+                    <li class="footer_items">Tesla © 2020</li>
+                    <li class="footer_items">
+                        <a href="#">Privacy & Legal</a>
+                    </li>
+                    <li class="footer_items">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="footer_items">
+                        <a href="#">Careers</a>
+                    </li>
+                    <li class="footer_items">
+                        <a href="#">Get Newsletter</a>
+                    </li>
+                    <li class="footer_items">
+                        <a href="#">Forums</a>
+                    </li>
+                    <li class="footer_items">
+                        <a href="#">Locations</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<script src="js/main.min.js"></script>
+</body>
+
+</html>

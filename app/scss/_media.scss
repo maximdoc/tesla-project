@@ -1,0 +1,312 @@
+@media (max-width: 1220px) {
+  .advantages {
+    &_text {
+      padding-left: 20px;
+    }
+  }
+}
+
+
+@media (max-width: 1024px) {
+
+  .top {
+    background-image: url("../images/header-mobile-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+    width: 100%;
+
+    &_slider {
+      display: none;
+    }
+  }
+
+  .header {
+    height: 100vh;
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &_content-title {
+      margin-bottom: 40px;
+      padding-top: 50px;
+    }
+
+    &_content-text {
+      text-align: center;
+    }
+  }
+
+  .advantages {
+    &_row {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+
+    &_desc {
+      text-align: center;
+    }
+
+    &_title {
+      position: static;
+    }
+
+    &_text {
+      padding-left: 0;
+      margin: 25px auto;
+    }
+
+    &_row--mobile &_desc {
+      order: -1;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  .design {
+
+    &_images {
+      margin-bottom: 50px;
+    }
+
+    &_inner {
+      display: block;
+      margin-bottom: 50px;
+    }
+
+    &_item {
+      max-width: 100%;
+      margin-bottom: 30px;
+      padding-right: 0;
+    }
+
+    &_item-text {
+      max-width: 100%;
+      padding-top: 40px;
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .statistics {
+    &_inner {
+      flex-wrap: wrap;
+    }
+
+    &_item {
+      padding: 50px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+
+  .header {
+
+    &_content-title {
+      font-size: 70px;
+      line-height: 85px;
+      color: #0B0B0B;
+    }
+
+    &_content-text {
+      color: #0B0B0B;
+      text-align: center;
+      margin-bottom: 100px;
+      width: auto;
+    }
+
+    &_logo {
+      img {
+        width: 170px;
+      }
+    }
+
+    &_btn {
+      width: 50px;
+      height: 50px;
+
+      &::before,
+      &::after {
+        width: 30px;
+      }
+    }
+
+    &_btn-line {
+      width: 30px;
+    }
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .menu {
+    &_list {
+      ul {
+        width: 100%;
+      }
+
+      a {
+        font-size: 30px;
+        line-height: 44px;
+        padding: 19px 10px 7px 0;
+        display: block;
+        min-width: 100%;
+      }
+    }
+
+    &_close-btn {
+      width: 63px;
+      height: 24px;
+      right: 0;
+      top: 50px;
+    }
+
+    &_close-btn::after {
+      width: 50%;
+    }
+
+    &_close-btn::before {
+      width: 50%;
+    }
+  }
+
+  .statistics {
+    margin: 110px 0 50px;
+  }
+
+  .advantages {
+    &_img {
+      width: 100%;
+    }
+
+    &_item {
+      font-size: 20px;
+    }
+
+    &_text {
+      font-size: 20px;
+    }
+  }
+
+  .design {
+    &_item-text {
+      font-size: 20px;
+    }
+  }
+
+  .footer {
+    padding: 50px 0 20px;
+
+    &_btn {
+      margin-bottom: 50px;
+    }
+
+    &_item {
+      font-size: 20px;
+    }
+
+    &_copy li {
+      padding: 0 5px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+
+    background: none;
+
+    &_content-title {
+      margin-bottom: 130px;
+    }
+
+    &_content-text {
+      font-size: 24px;
+      line-height: 28px;
+      text-align: center;
+      margin-bottom: 62px;
+      color: #FFFFFF;
+      width: auto;
+    }
+
+    &_logo {
+      padding-top: 0;
+      position: relative;
+      top: 50px;
+      left: 80px;
+    }
+  }
+
+
+  .statistics {
+    &_item {
+      padding: 30px;
+    }
+  }
+}
+
+
+@media (max-width: 320px) {
+  .header {
+    &_content-title {
+      margin-bottom: 0;
+      font-size: 60px;
+      color: #fff;
+      padding-top: 80px;
+    }
+
+    &_logo {
+      top: 55px;
+      left: 60px;
+    }
+
+    &_content-text {
+      font-size: 20px;
+    }
+
+    &_btn {
+      width: 40px;
+      height: 40px;
+
+      &::before, {
+        width: 24px;
+        margin-bottom: 5px;
+      }
+
+      &::after {
+        width: 24px;
+      }
+    }
+
+    &_btn-line {
+      width: 24px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .button {
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+
+  .menu {
+    &_list a {
+      font-size: 20px;
+      line-height: 34px;
+    }
+
+    &_close-btn {
+      width: 50px;
+      height: 19px;
+    }
+  }
+}
